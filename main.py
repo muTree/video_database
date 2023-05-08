@@ -30,7 +30,6 @@ class MainWindow(QWidget):
     def update_label(self):
         self.label.setText('Button clicked!')
 
-
 if __name__ == '__main__':
     conn = sqlite3.connect("files.db")
     cursor = conn.cursor()
